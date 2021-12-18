@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Catherine's test task</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20211218024630">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__link">
+					<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png?_v=1639784790676" alt="Logo" class="header__logo"></picture>
+				</a>
+				<div class="header__block">
+					<a href="tel:+74997777777" class="header__tel">+7(499) 777-77-77</a>
+					<a href="tel:+74997777777" class="header__tel">+7(499) 777-77-77</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="present-form">
+				<div class="present-form__container">
+					<div class="present-form__wrap">
+						<h2 class="present-form__title title">форма с кнопкой</h2>
+						<form class="present-form__form form-present">
+							<h3 class="form-present__title title title_white">оставь телефон и получи
+								что-то офигенное</h3>
+							<input autocomplete="off" type="tel" name="form[form-present]" data-error="Ошибка" placeholder="Введите номер" class="form-present__input input">
+							<button data-popup="#massageName" type="submit" class="form-present__button button">получить</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<section class="main-slider">
+				<div class="main-slider__containet">
+					<h2 class="main-slider__title title">Тут у нас слайдер</h2>
+					<div class="main-slider__block">
+						<div class="main-slider__slider">
+							<div class="main-slider__swiper">
+								<div class="main-slider__slide">
+									<picture><source srcset="img/slider/1.webp" type="image/webp"><img src="img/slider/1.jpg?_v=1639784790676" alt="First picture" class="main-slider__picture"></picture>
+								</div>
+								<div class="main-slider__slide">
+									<picture><source srcset="img/slider/2.webp" type="image/webp"><img src="img/slider/2.jpg?_v=1639784790676" alt="Second picture" class="main-slider__picture"></picture>
+								</div>
+								<div class="main-slider__slide">
+									<picture><source srcset="img/slider/3.webp" type="image/webp"><img src="img/slider/3.jpg?_v=1639784790676" alt="Tride picture" class="main-slider__picture"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-slider__pagging slider-quality__pagging"></div>
+				</div>
+			</section>
+
+			<section class="description">
+				<div class="description__container">
+					<h2 class="description__title title title_black">просто текстовый блок</h2>
+					<p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere quis
+						arcu sit amet commodo. Nullam ac dui lacus. Nulla dapibus interdum interdum. Curabitur ut diam nisl.
+						Vivamus libero lacus, viverra at dolor sit amet, commodo faucibus orci. Vivamus laoreet ornare nisi,
+						id
+						pharetra tellus ullamcorper volutpat. Sed lacinia placerat accumsan. Praesent pharetra ipsum
+						scelerisque,
+						sodales urna ut, placerat nulla. Duis nunc urna, semper non arcu ut, sagittis dapibus lorem. Nunc nec
+						urna id velit sodales sodales. Sed porttitor quam eget mollis consequat. Curabitur aliquet nec dui
+						eget
+						aliquet. Nulla in risus ante.</p>
+				</div>
+
+			</section>
+
+			<section class="calculator">
+				<div class="calculator__container">
+					<h2 class="calculator__title title">Калькулятор<br>
+						(стоимость пользователь узнает по телефону)</h2>
+
+					<div data-tabs class="tabs">
+
+						<div class="tabs__block">
+							<div class="tabs__picture tabs__picture_1">
+								<picture><source srcset="img/calculator/1.webp" type="image/webp"><img src="img/calculator/1.jpg?_v=1639784790676" alt="" class="tabs__img"></picture>
+							</div>
+							<div class="tabs__picture tabs__picture_2">
+								<picture><source srcset="img/calculator/2.webp" type="image/webp"><img src="img/calculator/2.jpg?_v=1639784790676" alt="" class="tabs__img"></picture>
+							</div>
+							<div class="tabs__picture tabs__picture_3">
+								<picture><source srcset="img/calculator/3.webp" type="image/webp"><img src="img/calculator/3.jpg?_v=1639784790676" alt="" class="tabs__img"></picture>
+							</div>
+							<div class="tabs__picture tabs__picture_4">
+								<picture><source srcset="img/calculator/4.webp" type="image/webp"><img src="img/calculator/4.jpg?_v=1639784790676" alt="" class="tabs__img"></picture>
+							</div>
+							<div class="tabs__picture tabs__picture_5">
+								<picture><source srcset="img/calculator/5.webp" type="image/webp"><img src="img/calculator/5.jpg?_v=1639784790676" alt="" class="tabs__img"></picture>
+							</div>
+						</div>
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="submit" class="tabs__title tabs__title_1 _tab-active">Одностворчатое</button>
+							<button type="submit" class="tabs__title tabs__title_2">Двухстворчатое</button>
+							<button type="submit" class="tabs__title tabs__title_3">Трехстворчатое</button>
+							<button type="submit" class="tabs__title tabs__title_4">Балконный блок</button>
+							<button type="submit" class="tabs__title tabs__title_5">Остекление балкона</button>
+						</nav>
+
+						<div data-tabs-body class="tabs__content">
+
+							<div class="tabs__body">
+								<form action="#" class="form-calculator">
+									<div class="form-calculator__items">
+										<div class="form-calculator__item window">
+											<div class="window__text">ширина</div>
+											<div class="window__text window__text_vertical">высота</div>
+											<div class="window__picture">
+												<picture><source srcset="img/calculator/select/copy1.webp" type="image/webp"><img src="img/calculator/select/copy1.jpg?_v=1639784790676" alt="Одностворчатое окно"></picture>
+											</div>
+											<div class="window__block block-window">
+												<div class="block-window__item">
+													<label class="block-window__label" for="width1">ширина, см</label>
+													<input class="block-window__input" type="number" id="width1" name="width" placeholder="120">
+												</div>
+												<div class="block-window__item block-window__item_x">х</div>
+												<div class="block-window__item">
+													<label class="block-window__label" for="height1">высота, см</label>
+													<input class="block-window__input" type="number" id="height1" name="height" placeholder="120">
+												</div>
+											</div>
+										</div>
+
+										<div class="form-calculator__item criterions">
+											<h3 class="criterions__title">Одностворчатое окно KBE</h3>
+											<p class="criterions__text">1. Критерий выбора</p>
+											<fieldset class="radio">
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Permanent exhibition" checked>
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 1
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Temporary exhibition">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 2
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Combined Admission">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 3
+												</label>
+											</fieldset>
+											<p class="criterions__text">2. Выберите открывание створки</p>
+											<select name="form[]" class="form">
+												<option value="1" selected>Не открывается</option>
+												<option value="2">Открывается</option>
+												<option value="3">Открытие и проветривание</option>
+											</select>
+										</div>
+
+									</div>
+									<div class="form-calculator__bottom ">
+
+										<div class="form-calculator__phone">
+											<input type="tel" class="form-calculator__input" name="phone" id="phone1" value="" placeholder="Введите номер" required autocomplete="off">
+											<label for="phone1" class="form-calculator__label"></label>
+										</div>
+										<button data-popup="#massageName" type="submit" class="form-calculator__button button">рассчитать</button>
+									</div>
+								</form>
+							</div>
+
+							<div class="tabs__body">
+								<form action="#" class="form-calculator">
+									<div class="form-calculator__items">
+										<div class="form-calculator__item window">
+											<div class="window__text">ширина</div>
+											<div class="window__text window__text_vertical">высота</div>
+											<div class="window__picture">
+												<picture><source srcset="img/calculator/select/copy2.webp" type="image/webp"><img src="img/calculator/select/copy2.jpg?_v=1639784790676" alt="Двухстворчатое окно"></picture>
+											</div>
+											<div class="window__block block-window">
+												<div class="block-window__item">
+													<label class="block-window__label" for="width2">ширина, см</label>
+													<input class="block-window__input" type="number" id="width2" name="width" placeholder="120">
+												</div>
+												<div class="block-window__item block-window__item_x">х</div>
+												<div class="block-window__item">
+													<label class="block-window__label" for="height2">высота, см</label>
+													<input class="block-window__input" type="number" id="height2" name="height" placeholder="120">
+												</div>
+											</div>
+										</div>
+
+										<div class="form-calculator__item criterions">
+											<h3 class="criterions__title">Двухстворчатое окно KBE</h3>
+											<p class="criterions__text">1. Критерий выбора</p>
+											<fieldset class="radio">
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Permanent exhibition" checked>
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 1
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Temporary exhibition">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 2
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Combined Admission">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 3
+												</label>
+											</fieldset>
+											<p class="criterions__text">2. Выберите открывание створки</p>
+											<select name="form[]" class="form">
+												<option value="1" selected>Не открывается</option>
+												<option value="2">Открывается</option>
+												<option value="3">Открытие и проветривание</option>
+											</select>
+										</div>
+
+									</div>
+									<div class="form-calculator__bottom ">
+
+										<div class="form-calculator__phone">
+											<input type="tel" class="form-calculator__input" name="phone" id="phone2" value="" placeholder="Введите номер" required autocomplete="off">
+											<label for="phone2" class="form-calculator__label"></label>
+										</div>
+										<button data-popup="#massageName" type="submit" class="form-calculator__button button">рассчитать</button>
+									</div>
+								</form>
+							</div>
+
+							<div class="tabs__body">
+								<form action="#" class="form-calculator">
+									<div class="form-calculator__items">
+										<div class="form-calculator__item window">
+											<div class="window__text">ширина</div>
+											<div class="window__text window__text_vertical">высота</div>
+											<div class="window__picture">
+												<picture><source srcset="img/calculator/select/copy3.webp" type="image/webp"><img src="img/calculator/select/copy3.jpg?_v=1639784790676" alt="Трехстворчатое окно"></picture>
+											</div>
+											<div class="window__block block-window">
+												<div class="block-window__item">
+													<label class="block-window__label" for="width3">ширина, см</label>
+													<input class="block-window__input" type="number" id="width3" name="width" placeholder="120">
+												</div>
+												<div class="block-window__item block-window__item_x">х</div>
+												<div class="block-window__item">
+													<label class="block-window__label" for="height3">высота, см</label>
+													<input class="block-window__input" type="number" id="height3" name="height" placeholder="120">
+												</div>
+											</div>
+										</div>
+
+										<div class="form-calculator__item criterions">
+											<h3 class="criterions__title">Трехстворчатое окно KBE</h3>
+											<p class="criterions__text">1. Критерий выбора</p>
+											<fieldset class="radio">
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Permanent exhibition" checked>
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 1
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Temporary exhibition">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 2
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Combined Admission">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 3
+												</label>
+											</fieldset>
+											<p class="criterions__text">2. Выберите открывание створки</p>
+											<select name="form[]" class="form">
+												<option value="1" selected>Не открывается</option>
+												<option value="2">Открывается</option>
+												<option value="3">Открытие и проветривание</option>
+											</select>
+										</div>
+
+									</div>
+									<div class="form-calculator__bottom ">
+
+										<div class="form-calculator__phone">
+											<input type="tel" class="form-calculator__input" name="phone" id="phone3" value="" placeholder="Введите номер" required autocomplete="off">
+											<label for="phone3" class="form-calculator__label"></label>
+										</div>
+										<button data-popup="#massageName" type="submit" class="form-calculator__button button">рассчитать</button>
+									</div>
+								</form>
+							</div>
+
+							<div class="tabs__body">
+								<form action="#" class="form-calculator">
+									<div class="form-calculator__items">
+										<div class="form-calculator__item window">
+											<div class="window__text">ширина</div>
+											<div class="window__text window__text_vertical">высота</div>
+											<div class="window__picture">
+												<picture><source srcset="img/calculator/select/copy4.webp" type="image/webp"><img src="img/calculator/select/copy4.png?_v=1639784790676" alt="Балконный блок"></picture>
+											</div>
+											<div class="window__block block-window">
+												<div class="block-window__item">
+													<label class="block-window__label" for="width4">ширина, см</label>
+													<input class="block-window__input" type="number" id="width4" name="width" placeholder="120">
+												</div>
+												<div class="block-window__item block-window__item_x">х</div>
+												<div class="block-window__item">
+													<label class="block-window__label" for="height4">высота, см</label>
+													<input class="block-window__input" type="number" id="height4" name="height" placeholder="120">
+												</div>
+											</div>
+										</div>
+
+										<div class="form-calculator__item criterions">
+											<h3 class="criterions__title">Балконный блок KBE</h3>
+											<p class="criterions__text">1. Критерий выбора</p>
+											<fieldset class="radio">
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Permanent exhibition" checked>
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 1
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Temporary exhibition">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 2
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Combined Admission">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 3
+												</label>
+											</fieldset>
+											<p class="criterions__text">2. Выберите открывание створки</p>
+											<select name="form[]" class="form">
+												<option value="1" selected>Не открывается</option>
+												<option value="2">Открывается</option>
+												<option value="3">Открытие и проветривание</option>
+											</select>
+										</div>
+
+									</div>
+									<div class="form-calculator__bottom ">
+
+										<div class="form-calculator__phone">
+											<input type="tel" class="form-calculator__input" name="phone" id="phone4" value="" placeholder="Введите номер" required autocomplete="off">
+											<label for="phone4" class="form-calculator__label"></label>
+										</div>
+										<button data-popup="#massageName" type="submit" class="form-calculator__button button">рассчитать</button>
+									</div>
+								</form>
+							</div>
+
+							<div class="tabs__body">
+								<form action="#" class="form-calculator">
+									<div class="form-calculator__items">
+										<div class="form-calculator__item window">
+											<div class="window__text">ширина</div>
+											<div class="window__text window__text_vertical">высота</div>
+											<div class="window__picture">
+												<picture><source srcset="img/calculator/select/copy5.webp" type="image/webp"><img src="img/calculator/select/copy5.png?_v=1639784790676" alt="Остекление балкона"></picture>
+											</div>
+											<div class="window__block block-window">
+												<div class="block-window__item">
+													<label class="block-window__label" for="width5">ширина, см</label>
+													<input class="block-window__input" type="number" id="width5" name="width" placeholder="120">
+												</div>
+												<div class="block-window__item block-window__item_x">х</div>
+												<div class="block-window__item">
+													<label class="block-window__label" for="height5">высота, см</label>
+													<input class="block-window__input" type="number" id="height5" name="height" placeholder="120">
+												</div>
+											</div>
+										</div>
+
+										<div class="form-calculator__item criterions">
+											<h3 class="criterions__title">Остекление балкона KBE</h3>
+											<p class="criterions__text">1. Критерий выбора</p>
+											<fieldset class="radio">
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Permanent exhibition" checked>
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 1
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Temporary exhibition">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 2
+												</label>
+												<label class="radio__label">
+													<input class="radio__input real-radio" type="radio" name="ticket-type" value="Combined Admission">
+													<span class="radio__custom-radio custom-radio"></span>
+													пункт выбора 3
+												</label>
+											</fieldset>
+											<p class="criterions__text">2. Выберите открывание створки</p>
+											<select name="form[]" class="form">
+												<option value="1" selected>Не открывается</option>
+												<option value="2">Открывается</option>
+												<option value="3">Открытие и проветривание</option>
+											</select>
+										</div>
+
+									</div>
+									<div class="form-calculator__bottom ">
+
+										<div class="form-calculator__phone">
+											<input type="tel" class="form-calculator__input" name="phone" id="phone5" value="" placeholder="Введите номер" required autocomplete="off">
+											<label for="phone5" class="form-calculator__label"></label>
+										</div>
+										<button data-popup="#massageName" type="submit" class="form-calculator__button button">рассчитать</button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">просто<br>
+					скромный футер</div>
+			</div>
+		</footer>
+	</div>
+	<div class="hystmodal " id="myPopup" aria-hidden="true">
+		<div class="hystmodal__wrap ">
+			<div class="hystmodal__window" role="dialog" aria-modal="true">
+				<button data-hystclose class="hystmodal__close">Закрыть</button>
+			</div>
+		</div>
+	</div>
+	<div class="hystmodal" id="massageName" aria-hidden="true">
+		<div class="hystmodal__wrap">
+			<div class="hystmodal__window" role="dialog" aria-modal="true">
+				<button data-hystclose class="hystmodal__close">Закрыть</button>
+				<div class="hystmodal__block">
+					<div class="hystmodal__massage">
+						Ваше сообщение отправлено.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20211218024630"></script>
+</body>
+
+</html>
